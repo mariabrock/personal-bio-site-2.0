@@ -2,4 +2,79 @@ body {
     background-color: whitesmoke;
     color: black;
     font-family: 'Arvo', serif;
+
+    .navbar{
+      padding-top: 100px;
+      padding-left: 70em;
+    }
+  }
+
+  #homePage{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 150px;
+    margin-top: 50px;
+
+    #homePageText {
+      font-family: 'Shadows Into Light', cursive;
+    }
+
+    img {
+      display: block;
+      border-radius: 50%;
+    }
+  }
+
+  h3 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Arvo', serif;
+    padding-bottom: 50px;
+  }
+
+    #bioPage {
+      display: flex;
+      background-color: #2AB8CF;
+      flex-flow: row wrap;
+      justify-content: center;
+
+      #bioText{
+        margin: 200px;
+        font-size: larger;
+      }
+      
+    }
+
+  #technologiesPage {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+
+    #techPageText {
+      margin: 200px;
+    }
+
+    .row {
+      padding: 50px;
+    }
+  }
+
+  #projectsPage {
+    display: flex;
+      background-color: #2AB8CF;
+      flex-flow: row wrap;
+      justify-content: center;
+
+      #projectsText{
+        margin: 200;
+      }
+  }
+
+  .page-footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: auto;
   }
