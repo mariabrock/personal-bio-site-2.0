@@ -60,6 +60,17 @@ body {
     }
   }
 
+  #projectsPage {
+    display: flex;
+      background-color: #2AB8CF;
+      flex-flow: row wrap;
+      justify-content: center;
+
+      #projectsText{
+        margin: 200;
+      }
+  }
+
   .page-footer {
     display: flex;
     flex-flow: row wrap;

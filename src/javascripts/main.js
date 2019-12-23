@@ -10,7 +10,7 @@ console.error('this will be my site');
 
 const init = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
-  projectCards.createProjectCards();
+  projectCards.displayProjectCards();
 };
 
 init();

@@ -17,7 +17,7 @@ const displayProjectCards = () => {
         </div>
         `;
       });
-      utilities.printToDom('projectsPage', domString);
+      utilities.printToDom('projectsText', domString);
     })
     .catch((error) => console.error(error));
 };

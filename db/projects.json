@@ -1,0 +1,41 @@
+{
+    "project1": {
+      "title": "Cool Project",
+      "screenshot": "https://carloselopez.files.wordpress.com/2015/03/project-management.jpg",
+      "description": "This is the best project",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://github.com/mariabrock",
+      "githubUrl": "https://github.com/mariabrock"
+    },
+  
+    "project2": {
+      "title": "Cool Project",
+      "screenshot": "https://carloselopez.files.wordpress.com/2015/03/project-management.jpg",
+      "description": "This is the best project",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://github.com/mariabrock",
+      "githubUrl": "https://github.com/mariabrock"
+    },
+
+    "project3": {
+        "title": "Cool Project",
+        "screenshot": "https://carloselopez.files.wordpress.com/2015/03/project-management.jpg",
+        "description": "This is the best project",
+        "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+        "available": true,
+        "url": "https://github.com/mariabrock",
+        "githubUrl": "https://github.com/mariabrock"
+      },
+
+    "project4": {
+    "title": "Cool Project",
+    "screenshot": "https://carloselopez.files.wordpress.com/2015/03/project-management.jpg",
+    "description": "This is the best project",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/mariabrock",
+    "githubUrl": "https://github.com/mariabrock"
+    }
+  }
