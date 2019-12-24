@@ -2,29 +2,37 @@ body {
     background-color: whitesmoke;
     color: black;
     font-family: 'Arvo', serif;
-
+    
     .navbar{
       padding-top: 100px;
       padding-left: 70em;
     }
   }
 
-  #homePage{
+  #homePage {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 150px;
-    margin-top: 50px;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages5.alphacoders.com%2F659%2Fthumb-1920-659468.jpg&f=1&nofb=1");
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
 
     #homePageText {
       font-family: 'Shadows Into Light', cursive;
+      color: whitesmoke;
+      display: absolute;
+      margin: 150px;
+      margin-top: 50px;
     }
 
-    img {
-      display: block;
+    #profilePic {
       border-radius: 50%;
+      opacity: 100%;
     }
-  }
 
   h3 {
     display: flex;
@@ -50,9 +58,17 @@ body {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1516053256215-94022213b13c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80");
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
 
     #techPageText {
       margin: 200px;
+      display: absolute;
+      
     }
 
     .row {
@@ -60,16 +76,20 @@ body {
     }
   }
 
-  #projectsPage {
+  #projectsText {
     display: flex;
-      background-color: #2AB8CF;
-      flex-flow: row wrap;
-      justify-content: center;
-
-      #projectsText{
-        margin: 200;
-      }
+    flex-flow: row wrap;
+    background-color: #2AB8CF;
+    justify-content: space-evenly;
   }
+
+a:link, a:visited, a:active  {
+  color: black;
+}
+
+a:hover {
+  color: #2AB8CF;
+}
 
   .page-footer {
     display: flex;
@@ -77,4 +97,23 @@ body {
     justify-content: space-evenly;
     margin: auto;
     padding: auto;
+  }
+
+  #card {
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: solid 5px whitesmoke;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 400px;
+    margin-top: 100px;
+    padding: auto;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Arvo', serif;
+    background-color: #2AB8CF;
+
+    img {
+      width: 370px;
+      height: 370px;
+    }
   }
