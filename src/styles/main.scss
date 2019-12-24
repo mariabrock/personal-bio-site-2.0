@@ -76,15 +76,11 @@ body {
     }
   }
 
-  #projectsPage {
+  #projectsText {
     display: flex;
-      background-color: #2AB8CF;
-      flex-flow: row wrap;
-      justify-content: center;
-
-      #projectsText{
-        margin: 200;
-      }
+    flex-flow: row wrap;
+    background-color: #2AB8CF;
+    justify-content: space-evenly;
   }
 
 a:link, a:visited, a:active  {
@@ -101,4 +97,23 @@ a:hover {
     justify-content: space-evenly;
     margin: auto;
     padding: auto;
+  }
+
+  #card {
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: solid 5px whitesmoke;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 400px;
+    margin-top: 100px;
+    padding: auto;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Arvo', serif;
+    background-color: #2AB8CF;
+
+    img {
+      width: 370px;
+      height: 370px;
+    }
   }

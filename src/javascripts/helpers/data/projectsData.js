@@ -7,7 +7,7 @@ const baseURL = apiKeys.firebaseKeys.databaseURL;
 const getProjectData = () => new Promise((resolve, reject) => {
   axios.get(`${baseURL}/projects.json`)
     .then((response) => {
-      const demProjects = response.data.projects;
+      const demProjects = response.data;
       const projects = [];
       Object.keys(demProjects).forEach((projectId) => {
         demProjects[projectId].id = projectId;
