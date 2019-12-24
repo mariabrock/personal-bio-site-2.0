@@ -2,10 +2,10 @@ import axios from 'axios';
 import apiKeys from '../apiKeys.json';
 import 'firebase/auth';
 
-const baseUrl = apiKeys.firebaseKeys.databaseURL;
+const baseURL = apiKeys.firebaseKeys.databaseURL;
 
 const getProjectData = () => new Promise((resolve, reject) => {
-  axios.get(`${baseUrl}/projects.json`)
+  axios.get(`${baseURL}/projects.json`)
     .then((response) => {
       const demProjects = response.data.projects;
       const projects = [];
