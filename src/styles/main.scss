@@ -76,6 +76,11 @@ body {
     }
   }
 
+#projectsPage{
+  background-color: #2AB8CF;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
   #projectsText {
     display: flex;
     flex-flow: row wrap;
@@ -83,6 +88,9 @@ body {
     justify-content: space-evenly;
   }
 
+}
+
+  
 a:link, a:visited, a:active  {
   color: black;
 }
@@ -105,7 +113,7 @@ a:hover {
     border: solid 5px whitesmoke;
     border-radius: 10px 10px 10px 10px;
     max-width: 400px;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: auto;
     text-align: center;
     font-size: 16px;
