@@ -5,7 +5,7 @@
       "description": "A Project that allows the user to view,edit, and add players to the NAshville Predators NHL team.",
       "technologiesUsed": "React, JSX, Firebase",
       "available": true,
-      "url": "https://github.com/mariabrock",
+      "url": "https://github.com/mariabrock/sports-roster",
       "githubUrl": "https://github.com/mariabrock/sports-roster"
     },
   
@@ -15,7 +15,7 @@
       "description": "This project allows a user to select sandwich items and view a final price.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap",
       "available": true,
-      "url": "https://github.com/mariabrock",
+      "url": "https://github.com/mariabrock/sandwich-maker",
       "githubUrl": "https://github.com/mariabrock/sandwich-maker"
     },
 
@@ -25,7 +25,7 @@
         "description": "A project that explores fetching and displaying firebase data. Allows the user to add edit and delete information from the Star Wars Imperial Database.",
         "technologiesUsed": "HTML, CSS, Vanilla JavaScript",
         "available": true,
-        "url": "https://github.com/mariabrock",
+        "url": "https://nutshell-star-destroyer.firebaseapp.com/",
         "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-star-destroyer"
       },
 
@@ -35,7 +35,7 @@
     "description": "This is a project that explores what might happen if a Shark attacked Nss Night Cohort E10.",
     "technologiesUsed": "React, JSX",
     "available": true,
-    "url": "https://github.com/mariabrock",
+    "url": "https://github.com/mariabrock/shark-attack",
     "githubUrl": "https://github.com/mariabrock/shark-attack"
     }
   }

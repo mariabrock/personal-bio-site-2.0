@@ -1,6 +1,6 @@
 body {
     background-color: whitesmoke;
-    color: black;
+    color: white;
     font-family: 'Arvo', serif;
     
     .navbar{
@@ -43,7 +43,7 @@ body {
 
     #bioPage {
       display: flex;
-      background-color: #2AB8CF;
+      background-color: #4a4eda;
       flex-flow: row wrap;
       justify-content: center;
 
@@ -66,6 +66,7 @@ body {
     background-attachment: fixed;
 
     #techPageText {
+      color: black;
       margin: 200px;
       display: absolute;
       
@@ -77,14 +78,14 @@ body {
   }
 
 #projectsPage{
-  background-color: #2AB8CF;
+  background-color: #4a4eda;
   padding-top: 100px;
   padding-bottom: 100px;
 
   #projectsText {
     display: flex;
     flex-flow: row wrap;
-    background-color: #2AB8CF;
+    background-color: #4a4eda;
     justify-content: space-evenly;
   }
 
@@ -96,7 +97,11 @@ a:link, a:visited, a:active  {
 }
 
 a:hover {
-  color: #2AB8CF;
+  color: #8e4ada;
+}
+
+#socialMedia{
+  color: black;
 }
 
   .page-footer {
@@ -118,7 +123,7 @@ a:hover {
     text-align: center;
     font-size: 16px;
     font-family: 'Arvo', serif;
-    background-color: #2AB8CF;
+    background-color: #4a4eda;
 
     img {
       width: 370px;
