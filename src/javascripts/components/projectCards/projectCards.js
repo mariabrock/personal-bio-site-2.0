@@ -15,6 +15,7 @@ const displayProjectCards = () => {
             <p>${project.description}</p>
             <p>${project.technologiesUsed}</p>
             <a href=${project.url} id="linkToProject">${project.url}</a>
+            <a href=${project.githubUrl} id="linkToGithub">${project.githubUrl}</a>
           </div>
         </div>
         `;

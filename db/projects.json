@@ -11,7 +11,7 @@
   
     "project2": {
       "title": "Sandwich Maker",
-      "screenshot": "https://carloselopez.files.wordpress.com/2015/03/project-management.jpg",
+      "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/sandwhich-maker-pageload.png",
       "description": "This project allows a user to select sandwich items and view a final price.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap",
       "available": true,
@@ -21,7 +21,7 @@
 
     "project3": {
         "title": "Nutshell Star-Destroyer",
-        "screenshot": "https://carloselopez.files.wordpress.com/2015/03/project-management.jpg",
+        "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/loggedin-pageload.PNG",
         "description": "A project that explores fetching and displaying firebase data. Allows the user to add edit and delete information from the Star Wars Imperial Database.",
         "technologiesUsed": "HTML, CSS, Vanilla JavaScript",
         "available": true,
@@ -31,7 +31,7 @@
 
     "project4": {
     "title": "Shark-Attack!",
-    "screenshot": "https://carloselopez.files.wordpress.com/2015/03/project-management.jpg",
+    "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/homepage.PNG",
     "description": "This is a project that explores what might happen if a Shark attacked Nss Night Cohort E10.",
     "technologiesUsed": "React, JSX",
     "available": true,
