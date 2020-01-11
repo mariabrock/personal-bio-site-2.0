@@ -115,8 +115,8 @@ a:hover {
   #card {
     display: block;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border: solid 5px whitesmoke;
-    border-radius: 10px 10px 10px 10px;
+    // border: solid 5px whitesmoke;
+    // border-radius: 10px 10px 10px 10px;
     max-width: 400px;
     margin-top: 50px;
     padding: auto;
@@ -126,7 +126,7 @@ a:hover {
     background-color: #4a4eda;
 
     img {
-      width: 370px;
-      height: 370px;
+      width: 400px;
+      height: 200px;
     }
   }
