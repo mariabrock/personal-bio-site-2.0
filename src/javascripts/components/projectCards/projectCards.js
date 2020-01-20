@@ -11,11 +11,9 @@ const displayProjectCards = () => {
         <div id="card">
           <div id="card-body col-sm-4">
             <h2 id="title">${project.title}</h2>
-            <img src="${project.screenshot}" alt="Image of ${project.title}" />
+            <a href=${project.url}><img src="${project.screenshot}" alt="Image of ${project.title}" /></a>
             <p>${project.description}</p>
             <p>${project.technologiesUsed}</p>
-            <a href=${project.url} id="linkToProject">${project.url}</a>
-            <a href=${project.githubUrl} id="linkToGithub">${project.githubUrl}</a>
           </div>
         </div>
         `;
