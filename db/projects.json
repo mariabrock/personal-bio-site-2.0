@@ -1,7 +1,7 @@
 {
     "project1": {
       "title": "Sports-Roster",
-      "screenshot": "https://carloselopez.files.wordpress.com/2015/03/project-management.jpg",
+      "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/sports-roster-image.PNG",
       "description": "A Project that allows the user to view,edit, and add players to the NAshville Predators NHL team.",
       "technologiesUsed": "React, JSX, Firebase",
       "available": true,
