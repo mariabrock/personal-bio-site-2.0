@@ -14,6 +14,8 @@ const displayProjectCards = () => {
             <a href=${project.url}><img src="${project.screenshot}" alt="Image of ${project.title}" /></a>
             <p>${project.description}</p>
             <p>${project.technologiesUsed}</p>
+            <a href=${project.url} class="btn btn-outline-dark">View Site</a>
+            <a href=${project.githubUrl} class="btn btn-light">View GitHub</a>
           </div>
         </div>
         `;

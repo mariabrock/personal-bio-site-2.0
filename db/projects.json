@@ -5,7 +5,7 @@
       "description": "A Project that allows the user to view,edit, and add players to the NAshville Predators NHL team.",
       "technologiesUsed": "React, JSX, Firebase",
       "available": true,
-      "url": "https://github.com/mariabrock/sports-roster",
+      "url": "https://sports-roster-5a8a7.firebaseapp.com",
       "githubUrl": "https://github.com/mariabrock/sports-roster"
     },
   
@@ -15,7 +15,7 @@
       "description": "This project allows a user to select sandwich items and view a final price.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap",
       "available": true,
-      "url": "https://github.com/mariabrock/sandwich-maker",
+      "url": "https://sandwich-maker-a7cf5.firebaseapp.com",
       "githubUrl": "https://github.com/mariabrock/sandwich-maker"
     },
 
@@ -35,7 +35,7 @@
     "description": "This is a project that explores what might happen if a Shark attacked Nss Night Cohort E10.",
     "technologiesUsed": "React, JSX",
     "available": true,
-    "url": "https://github.com/mariabrock/shark-attack",
+    "url": "https://shark-attack-5b093.firebaseapp.com",
     "githubUrl": "https://github.com/mariabrock/shark-attack"
     }
   }
