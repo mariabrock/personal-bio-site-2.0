@@ -1,7 +1,7 @@
 {
   "project1": {
     "title": "Imagine Out Loud: Front-End Capstone",
-    "screenshot": "",
+    "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/homePage.PNG",
     "description": "Imagine Out Loud is an app built to encourage families to read-aloud together. The application is designed for use by a parent, or an older child who will track books being read and the amount of time that is read-aloud. A user will be able to add or edit a book that they add to their collection as well as add or delete a recorded time. Imagine Out Loud is built in React, JavaScript, CSS and HTML.",
     "technologiesUsed": "React, JSX, CSS, Firebase ",
     "available": true,
