@@ -1,41 +1,41 @@
 {
-    "project1": {
-      "title": "Sports-Roster",
-      "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/sports-roster-image.PNG",
-      "description": "A Project that allows the user to view,edit, and add players to the NAshville Predators NHL team.",
-      "technologiesUsed": "React, JSX, Firebase",
-      "available": true,
-      "url": "https://sports-roster-5a8a7.firebaseapp.com",
-      "githubUrl": "https://github.com/mariabrock/sports-roster"
-    },
-  
-    "project2": {
-      "title": "Sandwich Maker",
-      "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/sandwhich-maker-pageload.png",
-      "description": "This project allows a user to select sandwich items and view a final price.",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap",
-      "available": true,
-      "url": "https://sandwich-maker-a7cf5.firebaseapp.com",
-      "githubUrl": "https://github.com/mariabrock/sandwich-maker"
-    },
-
-    "project3": {
-        "title": "Nutshell Star-Destroyer",
-        "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/loggedin-pageload.PNG",
-        "description": "A project that explores fetching and displaying firebase data. Allows the user to add edit and delete information from the Star Wars Imperial Database.",
-        "technologiesUsed": "HTML, CSS, Vanilla JavaScript",
-        "available": true,
-        "url": "https://nutshell-star-destroyer.firebaseapp.com/",
-        "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-star-destroyer"
-      },
-
-    "project4": {
-    "title": "Shark-Attack!",
-    "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/homepage.PNG",
-    "description": "This is a project that explores what might happen if a Shark attacked Nss Night Cohort E10.",
-    "technologiesUsed": "React, JSX",
+  "project1": {
+    "title": "Imagine Out Loud: Front-End Capstone",
+    "screenshot": "",
+    "description": "Imagine Out Loud is an app built to encourage families to read-aloud together. The application is designed for use by a parent, or an older child who will track books being read and the amount of time that is read-aloud. A user will be able to add or edit a book that they add to their collection as well as add or delete a recorded time. Imagine Out Loud is built in React, JavaScript, CSS and HTML.",
+    "technologiesUsed": "React, JSX, CSS, Firebase ",
     "available": true,
-    "url": "https://shark-attack-5b093.firebaseapp.com",
-    "githubUrl": "https://github.com/mariabrock/shark-attack"
+    "url": "https://read-aloud-tracker.firebaseapp.com",
+    "githubUrl": "https://github.com/mariabrock/read-aloud-tracker"
+    },
+
+  "project2": {
+    "title": "Sports-Roster",
+    "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/sports-roster-image.PNG",
+    "description": "A Project that allows the user to view,edit, and add players to the Nashville Predators NHL team.",
+    "technologiesUsed": "React, JSX, Firebase",
+    "available": true,
+    "url": "https://sports-roster-5a8a7.firebaseapp.com",
+    "githubUrl": "https://github.com/mariabrock/sports-roster"
+  },
+
+  "project3": {
+    "title": "Sandwich Maker",
+    "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/sandwhich-maker-pageload.png",
+    "description": "This project allows a user to select sandwich items and view a final price.",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap",
+    "available": true,
+    "url": "https://sandwich-maker-a7cf5.firebaseapp.com",
+    "githubUrl": "https://github.com/mariabrock/sandwich-maker"
+  },
+
+  "project4": {
+      "title": "Nutshell Star-Destroyer",
+      "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/loggedin-pageload.PNG",
+      "description": "A project that explores fetching and displaying firebase data. Allows the user to add edit and delete information from the Star Wars Imperial Database.",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript",
+      "available": true,
+      "url": "https://nutshell-star-destroyer.firebaseapp.com/",
+      "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-star-destroyer"
     }
-  }
+}
