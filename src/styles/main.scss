@@ -9,6 +9,10 @@ body {
     }
   }
 
+  h1 {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  }
+
   #homePage {
     display: flex;
     flex-flow: row wrap;
@@ -39,6 +43,7 @@ body {
     justify-content: center;
     font-family: 'Arvo', serif;
     padding-bottom: 50px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
   }
 
     #bioPage {
@@ -114,7 +119,6 @@ a:hover {
 
   #card {
     display: block;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     // border: solid 5px whitesmoke;
     // border-radius: 10px 10px 10px 10px;
     max-width: 400px;
@@ -128,5 +132,15 @@ a:hover {
     img {
       width: 400px;
       height: 200px;
+      margin: 1em;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .btn {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
     }
   }
