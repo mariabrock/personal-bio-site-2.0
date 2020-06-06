@@ -5,9 +5,9 @@
 
 ## Screenshots
 ![Mainview]()
-![Bio]()
-![Technologies]()
-![Projects]()
+!()
+!()
+!()
 
 ## How to Run
 * clone down this project 
