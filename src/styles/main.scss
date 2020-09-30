@@ -1,16 +1,18 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './variables';
+
 body {
-    background-color: whitesmoke;
-    color: white;
+    background-color: $slateblue;
+    color: whitesmoke;
     font-family: 'Arvo', serif;
     
-    .navbar{
-      padding-top: 100px;
+    .navbar {
       padding-left: 70em;
     }
   }
 
   h1 {
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px $shadowblack;
   }
 
   #homePage {
@@ -26,11 +28,11 @@ body {
   }
 
     #homePageText {
-      font-family: 'Shadows Into Light', cursive;
-      color: whitesmoke;
-      display: absolute;
+      display: center;
+      color:$lightyellow;
       margin: 150px;
       margin-top: 50px;
+      text-shadow: 1px 1px $shadowblack;
     }
 
     #profilePic {
@@ -42,13 +44,18 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Arvo', serif;
+    color: whitesmoke;
     padding-bottom: 50px;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px $shadowblack;
+  }
+
+  #techHeader {
+    color: $darkblue;
   }
 
     #bioPage {
       display: flex;
-      background-color: #4a4eda;
+      background-color: $slateblue;
       flex-flow: row wrap;
       justify-content: center;
 
@@ -71,7 +78,7 @@ body {
     background-attachment: fixed;
 
     #techPageText {
-      color: black;
+      color: $darkblue;
       margin: 200px;
       display: absolute;
       
@@ -82,31 +89,29 @@ body {
     }
   }
 
-#projectsPage{
-  background-color: #4a4eda;
+#projectsPage {
+  background-color: $slateblue;
   padding-top: 100px;
   padding-bottom: 100px;
 
   #projectsText {
     display: flex;
     flex-flow: row wrap;
-    background-color: #4a4eda;
     justify-content: space-evenly;
   }
 
 }
 
-  
-a:link, a:visited, a:active  {
-  color: black;
+a:active {
+  color: $lightyellow;
 }
 
 a:hover {
-  color: #8e4ada;
+  color: $lilac;
 }
 
 #socialMedia{
-  color: black;
+  color: $lightyellow;
 }
 
   .page-footer {
@@ -117,34 +122,7 @@ a:hover {
     padding: auto;
   }
 
-  #card {
-    display: block;
-    // border: solid 5px whitesmoke;
-    // border-radius: 10px 10px 10px 10px;
-    max-width: 400px;
-    margin-top: 50px;
-    padding: auto;
-    text-align: center;
-    font-size: 16px;
-    font-family: 'Arvo', serif;
-    background-color: #4a4eda;
-
-    img {
-      width: 400px;
-      height: 200px;
-      margin: 1em;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    }
-
-    .btn {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    }
-
-    h2 {
-      text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
-    }
-
-  }
+  
 
       @media screen and (max-width: 1400px) {
         .navbar{
