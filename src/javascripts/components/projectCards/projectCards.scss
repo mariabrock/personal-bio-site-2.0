@@ -1,9 +1,48 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '../../../styles/variables';
+
 * {
-    #card {
-      width: 32%;
-      min-width: 200px;
-      margin: 0.66% auto;
+  #card {
+    display: block;
+    max-width: 400px;
+    margin-top: 50px;
+    padding: auto;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Arvo', serif;
+    // background-color: #40518E;
+
+    img {
+      width: 400px;
+      height: 200px;
+      margin: 1em;
+      box-shadow: 0 2px 4px 0 $shadowblack;
     }
+
+    .btn {
+      box-shadow: 0 2px 4px 0 $shadowblack;
+    }
+
+    h2 {
+      text-shadow: 1px 1px $shadowblack;
+    }
+
+    // #viewSite {
+    //   color:$lightblue;
+    // }
+    
+    // #github {
+    //   color:$lilac;
+    // }
+
+  }
+
+    // #card {
+    //   width: 32%;
+    //   min-width: 200px;
+    //   margin: 0.66% auto;
+    // }
+
   }
   
   /* Mobile Styles */
