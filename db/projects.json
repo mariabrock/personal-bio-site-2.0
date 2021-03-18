@@ -1,5 +1,15 @@
 {
   "project1": {
+    "title": "Galactic Polymath, Jobviz Page",
+    "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/homePage.PNG",
+    "description": "Galactic Polymath is a web-based app for connecting K-12 coursework to career possibilities. My responsibilities include building feature-complete solutions for user story requirements using data provided by the Bureau of Labor Statistics (BLS). My focus is primarily on developing the JobViz portion of the website.",
+    "technologiesUsed": "React, JavaScript, Creative Tim Material UI",
+    "available": true,
+    "url": "",
+    "githubUrl": ""
+    },
+
+  "project2": {
     "title": "Imagine Out Loud: Front-End Capstone",
     "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/homePage.PNG",
     "description": "Imagine Out Loud is an app built to encourage families to read-aloud together. The application is designed for use by a parent, or an older child who will track books being read and the amount of time that is read-aloud. A user will be able to add or edit a book that they add to their collection as well as add or delete a recorded time. Imagine Out Loud is built in React, JavaScript, CSS and HTML.",
@@ -9,7 +19,7 @@
     "githubUrl": "https://github.com/mariabrock/read-aloud-tracker"
     },
 
-  "project2": {
+  "project3": {
     "title": "Sports-Roster",
     "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/sports-roster-image.PNG",
     "description": "A Project that allows the user to view,edit, and add players to the Nashville Predators NHL team.",
@@ -19,7 +29,7 @@
     "githubUrl": "https://github.com/mariabrock/sports-roster"
   },
 
-  "project3": {
+  "project4": {
     "title": "Sandwich Maker",
     "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/sandwhich-maker-pageload.png",
     "description": "This project allows a user to select sandwich items and view a final price.",
@@ -29,7 +39,7 @@
     "githubUrl": "https://github.com/mariabrock/sandwich-maker"
   },
 
-  "project4": {
+  "project5": {
       "title": "Nutshell Star-Destroyer",
       "screenshot": "https://raw.githubusercontent.com/mariabrock/personal-bio-site-2.0/master/src/Bio-Site-Pics/loggedin-pageload.PNG",
       "description": "A project that explores fetching and displaying firebase data. Allows the user to add edit and delete information from the Star Wars Imperial Database.",

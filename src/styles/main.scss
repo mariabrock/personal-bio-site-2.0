@@ -12,7 +12,12 @@ body {
   }
 
   h1 {
-    text-shadow: 1px 1px $shadowblack;
+      text-align: center;
+      margin: 10px;
+      font-size: 2em;
+      text-shadow: 1px 1px $shadowblack;
+      max-width: 100%;
+      height: auto;
   }
 
   #homePage {
@@ -30,14 +35,17 @@ body {
     #homePageText {
       display: center;
       color:$lightyellow;
-      margin: 150px;
+      margin-bottom: 50px;
       margin-top: 50px;
       text-shadow: 1px 1px $shadowblack;
     }
 
     #profilePic {
+      display: flex;
+      justify-content: center;
       border-radius: 50%;
-      opacity: 100%;
+      max-width: 100%;
+      height: auto;
     }
 
   h3 {
@@ -45,7 +53,7 @@ body {
     justify-content: center;
     font-family: 'Arvo', serif;
     color: whitesmoke;
-    padding-bottom: 50px;
+    margin: 2em;
     text-shadow: 1px 1px $shadowblack;
   }
 
@@ -54,16 +62,12 @@ body {
   }
 
     #bioPage {
-      display: flex;
       background-color: $slateblue;
-      flex-flow: row wrap;
-      justify-content: center;
+      text-align: justify;
 
       #bioText{
-        margin: 200px;
-        font-size: larger;
-      }
-      
+        margin: 20px 20px 20px 20px;
+      } 
     }
 
   #technologiesPage {
@@ -79,58 +83,82 @@ body {
 
     #techPageText {
       color: $darkblue;
-      margin: 200px;
-      display: absolute;
-      
+      text-align: justify;
     }
 
     .row {
-      padding: 50px;
+      margin: 1em;
     }
   }
 
-#projectsPage {
-  background-color: $slateblue;
-  padding-top: 100px;
-  padding-bottom: 100px;
+// #projectsPage {
+//   background-color: $slateblue;
+//   padding-top: 100px;
+//   padding-bottom: 100px;
 
-  #projectsText {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
+//   #projectsText {
+//     display: flex;
+//     flex-flow: row wrap;
+//     justify-content: space-evenly;
+//   }
 
-}
+// }
 
-a:active {
-  color: $lightyellow;
-}
+// a:active {
+//   color: $lightyellow;
+// }
 
-a:hover {
-  color: $lilac;
-}
+// a:hover {
+//   color: $lilac;
+// }
 
-#socialMedia{
-  color: $lightyellow;
-}
+// #socialMedia{
+//   color: $lightyellow;
+// }
 
-  .page-footer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    margin: auto;
-    padding: auto;
-  }
+//   .page-footer {
+//     display: flex;
+//     flex-flow: row wrap;
+//     justify-content: space-evenly;
+//     margin: auto;
+//     padding: auto;
+//   }
 
-  
+//           /* Mobile Styles */
+//           @media only screen and (max-width: 400px) {
+//             #card {
+//               min-width: 200px;
+//               margin: 0.66% auto;
+//             }
+//           }
+          
+//           /* Tablet Styles */
+//           @media only screen and (min-width: 401px) and (max-width: 960px) {
+//             #card {
+//               min-width: 200px;
+//               margin: 0.66% auto;
+//             }
+//           }
+          
+//           /* Desktop Styles */
+//           @media only screen and (min-width: 961px) {
+//             #card {
+//               width: 32%;
+//               min-width: 200px;
+//               margin: 0.66% auto;
+//             }
+//           }
 
-      @media screen and (max-width: 1400px) {
-        .navbar{
-          padding-top: 50px;
-          padding-left: 40em;
-        }
-      }
-      @media screen and (max-width: 960px) {
-        //only override what begins to look too big
-      }
+      // @media screen and (max-width: 1400px) {
+      //   .navbar{
+      //     padding-top: 50px;
+      //     padding-left: 40em;
+      //   }
+      // }
+
+      // @media screen and (max-width: 960px) {
+      //   //only override what begins to look too big
+      // }
+
+
       
