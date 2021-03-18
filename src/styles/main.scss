@@ -80,6 +80,7 @@ body {
     background-size: cover;
     position: relative;
     background-attachment: fixed;
+    padding: 2em;
 
     #techPageText {
       color: $darkblue;
@@ -91,18 +92,18 @@ body {
     }
   }
 
-// #projectsPage {
-//   background-color: $slateblue;
-//   padding-top: 100px;
-//   padding-bottom: 100px;
+#projectsPage {
+      display: block;
+      background-color: $slateblue;
+      padding: 2em;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
 
-//   #projectsText {
-//     display: flex;
-//     flex-flow: row wrap;
-//     justify-content: space-evenly;
-//   }
+  #projectsText {
+      text-align: justify;
+  }
 
-// }
+}
 
 // a:active {
 //   color: $lightyellow;

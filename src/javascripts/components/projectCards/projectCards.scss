@@ -1,30 +1,35 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '../../../styles/variables';
 
-* {
   #card {
-    display: block;
-    max-width: 400px;
-    margin-top: 50px;
-    padding: auto;
-    text-align: center;
-    font-size: 16px;
-    font-family: 'Arvo', serif;
-    // background-color: #40518E;
+    display: flex;
+    justify-content: center;
+  }
 
-    img {
-      width: 400px;
-      height: 200px;
-      margin: 1em;
-      box-shadow: 0 2px 4px 0 $shadowblack;
-    }
+  #card-body {
+    display: flex;
+    justify-content: center;
+    // max-width: 400px;
+    margin-top: 50px;
+    // padding: auto;
+    text-align: center;
+    // font-size: 16px;
+    // font-family: 'Arvo', serif;
+    // background-color: #40518E;
 
     .btn {
       box-shadow: 0 2px 4px 0 $shadowblack;
     }
 
     h2 {
+      text-align: center;
+      max-width: 100%;
+      height: auto;
       text-shadow: 1px 1px $shadowblack;
+    }
+
+    p {
+      text-align: justify;
     }
 
     // #viewSite {
@@ -37,14 +42,14 @@
 
   }
 
-    // #card {
-    //   width: 32%;
-    //   min-width: 200px;
-    //   margin: 0.66% auto;
-    // }
-
+  img {
+    width: 550px;
+    height: 300px;
+    margin: 1em;
+    box-shadow: 0 2px 4px 0 $shadowblack;
   }
-  
+
+
   /* Mobile Styles */
   @media only screen and (max-width: 400px) {
     #card {
